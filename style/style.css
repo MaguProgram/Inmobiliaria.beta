@@ -1,0 +1,115 @@
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 80px;
+    margin: 0;
+    background-image: url(/assets/imgs/bosques2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1.titulo {
+    justify-content: center;
+    font-style: oblique;
+    text-align: center;
+    font-size: 70px;
+    color: rgba(209, 179, 82, 0.963);
+    text-decoration: underline solid rgb(209, 179, 82, 0.963) 5px;
+    text-shadow: 3px 3px 5px black;
+
+    /* CARACTERISTICAS DE LA ANIMACION */
+    animation-name: cuadrado;
+    position: relative;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+/* LE DAMOS ANIMACION A UN TEXTO O IMAGEN */
+/* @keyframes cuadrado {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 200px;
+    }
+} */
+
+h2 {
+    text-align: center;
+    color: rgb(211, 211, 17);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-style: italic;
+    text-shadow: 3px 3px 5px black;
+}
+
+h2.subtitulo {
+    border: 5px solid white;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: rgba(199, 154, 99, 0.311);
+    font-size: x-large;
+}
+
+/* SELECCIONAMOS EL INDICE Y LE DAMOS FORMATO */
+ul {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.283);
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* LE DAMOS ESTILO A CADA PALABRA DEL INDICE */
+li a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+p {
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+
+}
+
+h3.Proximamente {
+    border: 3px solid white;
+    background-color: rgba(183, 54, 34, 0.269);
+    color: white;
+    padding: 30px;
+}
+
+
+.footer {
+    background-color: rgba(199, 154, 99, 0.311);
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+    font-size: 30px;
+}
+
+.position {
+    position: relative;
+    left: 400px;
+}
+
+img {
+    padding: 10px;
+    max-width: 30%;
+    max-height: 30%;
+    border: 5px solid rgba(240, 206, 37, 0.425);
+}
+
+img:hover {
+    background-color: rgba(240, 206, 37, 0.425);
+}
