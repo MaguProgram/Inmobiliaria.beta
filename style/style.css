@@ -19,10 +19,11 @@ h1.titulo {
     text-shadow: 3px 3px 5px black;
 
     /* CARACTERISTICAS DE LA ANIMACION */
-    animation-name: cuadrado;
+    /* animation-name: cuadrado;
     position: relative;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    animation-direction: alternate; */
 }
 
 /* LE DAMOS ANIMACION A UN TEXTO O IMAGEN */
@@ -69,7 +70,7 @@ li a {
     text-align: center;
     padding: 10px 15px;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 25px;
 }
 
 p {
@@ -103,13 +104,24 @@ h3.Proximamente {
     left: 400px;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+
 img {
-    padding: 10px;
-    max-width: 30%;
-    max-height: 30%;
+    padding: 5px;
+    max-width: 90%;
+    max-height: 90%;
     border: 5px solid rgba(240, 206, 37, 0.425);
 }
 
 img:hover {
     background-color: rgba(240, 206, 37, 0.425);
+}
+
+.equipo {
+    display: grid;
+    justify-content: center;
+    margin-top: 5%;
 }
